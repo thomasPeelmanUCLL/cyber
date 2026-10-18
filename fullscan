@@ -1,0 +1,74 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-18 15:55 +0000
+Nmap scan report for 10.6.24.10
+Host is up (0.000016s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: E6:3A:DA:DF:66:BF (Unknown)
+
+Nmap scan report for 10.6.24.11
+Host is up (0.000016s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: D2:D3:FD:73:C9:7E (Unknown)
+
+Nmap scan report for 10.6.24.12
+Host is up (0.000016s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: EE:1B:E7:3F:B0:B2 (Unknown)
+
+Nmap scan report for 10.6.24.13
+Host is up (0.000015s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: 16:61:2D:17:86:C4 (Unknown)
+
+Nmap scan report for 10.6.24.14
+Host is up (0.000032s latency).
+Not shown: 65533 closed tcp ports (reset)
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: D2:3C:85:1A:56:3D (Unknown)
+
+Nmap scan report for 10.6.24.15
+Host is up (0.000032s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+21/tcp open  ftp
+MAC Address: AA:A7:CC:73:86:AC (Unknown)
+
+Nmap scan report for 10.6.24.16
+Host is up (0.000016s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT    STATE SERVICE
+23/tcp  open  telnet
+80/tcp  open  http
+502/tcp open  mbap
+MAC Address: 4A:A8:81:7C:4A:6A (Unknown)
+
+Nmap scan report for 10.6.24.17
+Host is up (0.000021s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: E6:61:D1:FB:E0:9F (Unknown)
+
+Nmap scan report for 10.6.24.77
+Host is up (0.000016s latency).
+Not shown: 65534 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: EE:A7:B0:B2:C9:65 (Unknown)
+
+Nmap scan report for ubuntu.local (10.6.24.1)
+Host is up (0.00011s latency).
+Not shown: 65534 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+
+Nmap done: 256 IP addresses (10 hosts up) scanned in 161.35 seconds
