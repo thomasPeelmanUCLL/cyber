@@ -1,0 +1,84 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-18 15:02 +0000
+Nmap scan report for 10.6.24.16
+Host is up (0.00037s latency).
+Not shown: 998 closed tcp ports (conn-refused)
+PORT   STATE SERVICE VERSION
+23/tcp open  telnet  BusyBox telnetd
+80/tcp open  http
+|_http-title: BrewControl HMI
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.1 200 OK
+|     Date: Sun, 18 Oct 2026 15:03:01 GMT
+|     Connection: close
+|     Content-type: text/html
+|     Accept-Ranges: bytes
+|     Last-Modified: Sun, 18 Oct 2026 14:48:41 GMT
+|     ETag: "6ad4dc49-2c4"
+|     Content-Length: 708
+|     <!doctype html><html><head><meta charset="utf-8"><title>BrewControl HMI</title>
+|     <meta http-equiv="refresh" content="30"></head>
+|     <body style="font-family:monospace;background:#101c10;color:#8f8">
+|     <h1>BrewControl HMI v2.1 (LAB / FICTIEF)</h1>
+|     <pre>
+|     BROUWZAAL 1 status: BREWING temp: 67.4 C druk: 1.2 bar
+|     BROUWZAAL 2 status: MASHING temp: 52.1 C druk: 1.1 bar
+|     GISTKELDER A status: FERMENT temp: 21.0 C
+|     FILTER status: IDLE
+|     </pre>
+|     <p>Geen login vereist voor deze pagina.</p>
+|     <p>Onderhoud: telnet naar dit toestel, login <b>operator</b> / <b>brewmaster</b>.
+|     Deze regel staat hier sinds de installatie in 2016 zodat de techniekers ze niet vergeten.<
+|   HTTPOptions: 
+|     HTTP/1.1 501 Not Implemented
+|     Date: Sun, 18 Oct 2026 15:03:01 GMT
+|     Connection: close
+|     Content-type: text/html
+|     <HTML><HEAD><TITLE>501 Not Implemented</TITLE></HEAD>
+|     <BODY><H1>501 Not Implemented</H1>
+|     requested method is not recognized
+|     </BODY></HTML>
+|   RTSPRequest: 
+|     HTTP/1.1 400 Bad Request
+|     Date: Sun, 18 Oct 2026 15:03:01 GMT
+|     Connection: close
+|     Content-type: text/html
+|     <HTML><HEAD><TITLE>400 Bad Request</TITLE></HEAD>
+|     <BODY><H1>400 Bad Request</H1>
+|     Unsupported method
+|_    </BODY></HTML>
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port80-TCP:V=7.98%I=7%D=10/18%Time=6AD4DFA5%P=x86_64-pc-linux-gnu%r(Get
+SF:Request,397,"HTTP/1\.1\x20200\x20OK\r\nDate:\x20Sun,\x2018\x20Oct\x2020
+SF:26\x2015:03:01\x20GMT\r\nConnection:\x20close\r\nContent-type:\x20text/
+SF:html\r\nAccept-Ranges:\x20bytes\r\nLast-Modified:\x20Sun,\x2018\x20Oct\
+SF:x202026\x2014:48:41\x20GMT\r\nETag:\x20\"6ad4dc49-2c4\"\r\nContent-Leng
+SF:th:\x20708\r\n\r\n<!doctype\x20html><html><head><meta\x20charset=\"utf-
+SF:8\"><title>BrewControl\x20HMI</title>\n<meta\x20http-equiv=\"refresh\"\
+SF:x20content=\"30\"></head>\n<body\x20style=\"font-family:monospace;backg
+SF:round:#101c10;color:#8f8\">\n<h1>BrewControl\x20HMI\x20v2\.1\x20\(LAB\x
+SF:20/\x20FICTIEF\)</h1>\n<pre>\n\x20\x20BROUWZAAL\x201\x20\x20\x20\x20\x2
+SF:0status:\x20BREWING\x20\x20\x20\x20\x20temp:\x20\x2067\.4\x20C\x20\x20\
+SF:x20druk:\x201\.2\x20bar\n\x20\x20BROUWZAAL\x202\x20\x20\x20\x20\x20stat
+SF:us:\x20MASHING\x20\x20\x20\x20\x20temp:\x20\x2052\.1\x20C\x20\x20\x20dr
+SF:uk:\x201\.1\x20bar\n\x20\x20GISTKELDER\x20A\x20\x20\x20\x20status:\x20F
+SF:ERMENT\x20\x20\x20\x20\x20temp:\x20\x2021\.0\x20C\n\x20\x20FILTER\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20status:\x20IDLE\n</pre>\n<p>Geen\x20l
+SF:ogin\x20vereist\x20voor\x20deze\x20pagina\.</p>\n<p>Onderhoud:\x20telne
+SF:t\x20naar\x20dit\x20toestel,\x20login\x20<b>operator</b>\x20/\x20<b>bre
+SF:wmaster</b>\.\nDeze\x20regel\x20staat\x20hier\x20sinds\x20de\x20install
+SF:atie\x20in\x202016\x20zodat\x20de\x20techniekers\x20ze\x20niet\x20verge
+SF:ten\.<")%r(HTTPOptions,100,"HTTP/1\.1\x20501\x20Not\x20Implemented\r\nD
+SF:ate:\x20Sun,\x2018\x20Oct\x202026\x2015:03:01\x20GMT\r\nConnection:\x20
+SF:close\r\nContent-type:\x20text/html\r\n\r\n<HTML><HEAD><TITLE>501\x20No
+SF:t\x20Implemented</TITLE></HEAD>\n<BODY><H1>501\x20Not\x20Implemented</H
+SF:1>\nThe\x20requested\x20method\x20is\x20not\x20recognized\n</BODY></HTM
+SF:L>\n")%r(RTSPRequest,E0,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nDate:\x2
+SF:0Sun,\x2018\x20Oct\x202026\x2015:03:01\x20GMT\r\nConnection:\x20close\r
+SF:\nContent-type:\x20text/html\r\n\r\n<HTML><HEAD><TITLE>400\x20Bad\x20Re
+SF:quest</TITLE></HEAD>\n<BODY><H1>400\x20Bad\x20Request</H1>\nUnsupported
+SF:\x20method\n</BODY></HTML>\n");
+Service Info: Host: duvel-scada01
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 93.32 seconds
