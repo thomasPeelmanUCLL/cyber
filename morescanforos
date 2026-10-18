@@ -1,0 +1,105 @@
+Starting Nmap 7.98 ( https://nmap.org ) at 2026-10-18 16:16 +0000
+Nmap scan report for 10.6.24.10
+Host is up (0.000097s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: E6:3A:DA:DF:66:BF (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), Linux 5.4 - 5.10 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%), Linux 2.6.32 - 3.10 (93%), OpenWrt 22.03 (Linux 5.10) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.11
+Host is up (0.000063s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: D2:D3:FD:73:C9:7E (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), OpenWrt 22.03 (Linux 5.10) (94%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), Linux 5.4 - 5.10 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%), Linux 2.6.32 - 3.10 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.12
+Host is up (0.000034s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: EE:1B:E7:3F:B0:B2 (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), OpenWrt 22.03 (Linux 5.10) (94%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), Linux 5.4 - 5.10 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%), Linux 2.6.32 - 3.10 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.13
+Host is up (0.000094s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT     STATE SERVICE
+3306/tcp open  mysql
+MAC Address: 16:61:2D:17:86:C4 (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), OpenWrt 22.03 (Linux 5.10) (94%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), OpenWrt 21.02 (Linux 5.4) (93%), Linux 2.6.32 - 3.10 (93%), Linux 5.4 - 5.10 (92%), Android 8 - 9 (Linux 3.18 - 4.4) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.14
+Host is up (0.000030s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+MAC Address: D2:3C:85:1A:56:3D (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (96%), OpenWrt 22.03 (Linux 5.10) (93%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), OpenWrt 21.02 (Linux 5.4) (93%), Linux 2.6.32 - 3.10 (93%), Linux 5.4 - 5.10 (92%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.15
+Host is up (0.000029s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+21/tcp open  ftp
+MAC Address: AA:A7:CC:73:86:AC (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), OpenWrt 22.03 (Linux 5.10) (94%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), Linux 5.4 - 5.10 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%), Linux 2.6.32 - 3.10 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.16
+Host is up (0.000030s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+23/tcp open  telnet
+80/tcp open  http
+MAC Address: 4A:A8:81:7C:4A:6A (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), OpenWrt 22.03 (Linux 5.10) (94%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), OpenWrt 21.02 (Linux 5.4) (93%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (93%), Linux 2.6.32 - 3.10 (93%), Linux 5.4 - 5.10 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.17
+Host is up (0.000034s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: E6:61:D1:FB:E0:9F (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), OpenWrt 22.03 (Linux 5.10) (94%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 2.6.32 (93%), Linux 5.10 - 5.19 (93%), Linux 3.2 - 4.14 (93%), OpenWrt 21.02 (Linux 5.4) (93%), Linux 2.6.32 - 3.10 (93%), Linux 5.4 - 5.10 (92%), MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3) (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.6.24.77
+Host is up (0.000029s latency).
+Not shown: 999 closed tcp ports (reset)
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: EE:A7:B0:B2:C9:65 (Unknown)
+Aggressive OS guesses: Linux 4.15 - 5.19 (97%), Linux 2.6.32 (93%), Linux 3.2 - 4.14 (93%), Linux 2.6.32 - 3.10 (93%), Android 9 - 10 (Linux 4.9 - 4.14) (93%), Linux 5.10 - 5.19 (93%), Linux 5.4 - 5.10 (92%), OpenWrt 21.02 (Linux 5.4) (92%), OpenWrt 22.03 (Linux 5.10) (92%), Linux 3.2 - 3.16 (92%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for ubuntu.local (10.6.24.1)
+Host is up (0.00017s latency).
+Not shown: 999 filtered tcp ports (no-response)
+PORT   STATE SERVICE
+22/tcp open  ssh
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: Linux 2.6.32 (96%), Linux 5.0 - 6.2 (96%), Linux 5.9 (94%), HP P2000 G3 NAS device (92%), Linux 3.7 - 4.19 (91%), Linux 3.19 - 4.4 (91%), Linux 5.10 - 5.11 (91%), Linux 5.4 - 5.15 (91%), Linux 3.8 - 3.9 (91%), Linux 4.1 (91%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 0 hops
+
+OS detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 256 IP addresses (10 hosts up) scanned in 34.38 seconds
